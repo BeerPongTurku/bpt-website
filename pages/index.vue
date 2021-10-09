@@ -1,53 +1,57 @@
 <template>
-  <section class="section">
-    <div class="columns is-mobile">
-      <card
-        title="Free"
-        icon="github"
-      >
-        Open source on <a href="https://github.com/buefy/buefy">
-          GitHub
-        </a>
-      </card>
-
-      <card
-        title="Responsive"
-        icon="cellphone-link"
-      >
-        <b class="has-text-grey">
-          Every
-        </b> component is responsive
-      </card>
-
-      <card
-        title="Modern"
-        icon="alert-decagram"
-      >
-        Built with <a href="https://vuejs.org/">
-          Vue.js
-        </a> and <a href="http://bulma.io/">
-          Bulma
-        </a>
-      </card>
-
-      <card
-        title="Lightweight"
-        icon="arrange-bring-to-front"
-      >
-        No other internal dependency
-      </card>
-    </div>
-  </section>
+  <div>
+    <hero-image
+      title="Up for a game of Beer Pong?"
+      subtitle="We are an academic Beer Pong association within University of Turku and Turku University of Applied Sciences."
+      image="/images/fsobp-2018.jpg"
+      :size="heroSize()"
+      :text-shadow="true"
+    >
+    </hero-image>
+    <section class="main-content">
+      <div class="container">
+        <div class="columns has-margin has-full-height">
+          <div class="column">
+            <div class="box content summary">
+              <nuxt-content :document="column" />
+            </div>
+          </div>
+          <div class="column content">
+            Placeholder
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
-import Card from '~/components/Card'
 
 export default {
   name: 'HomePage',
-
-  components: {
-    Card
-  }
+  layout: 'home',
+  async asyncData({ $content }) {
+    const column = await $content('index').fetch()
+    return { column }
+  },
+  methods: {
+    heroSize() {
+      return window.innerWidth > 1024 ? 'is-large' : 'is-fullheight-with-navbar'
+    },
+  },
 }
 </script>
+
+<style lang="scss" scoped>
+.has-margin {
+  margin: 2%;
+}
+
+.has-full-height {
+  min-height: 290px;
+}
+
+.summary {
+  height: 100%;
+}
+</style>

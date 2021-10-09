@@ -1,0 +1,29 @@
+<template>
+  <div class="footer">
+    <img src="~/assets/images/logo.png" width="150px" />
+    <ContactInfo :show-business-id="false" />
+    <SocialMediaBar />
+  </div>
+</template>
+
+<script>
+
+export default {
+  name: 'StickyFooter',
+}
+</script>
+
+<style lang="scss" scoped>
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: $footer-bg-color;
+
+  .contact-info {
+    margin: 20px;
+  }
+}
+</style>

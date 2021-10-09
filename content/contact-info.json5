@@ -1,0 +1,9 @@
+// Contact info, update this file to change
+{
+    organization: "Beer Pong Turku ry",
+    address: "Rehtorinpellonkatu 4B 177",
+    postalCode: "20500",
+    city: "Turku",
+    email: "beerpongturku@gmail.com",
+    businessId: "3078071-4"
+}
