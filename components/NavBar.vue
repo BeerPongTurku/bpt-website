@@ -22,13 +22,13 @@
     </template>
 
     <template #end>
-      <b-navbar-dropdown label="Association" :hoverable="openOnHover">
+      <b-navbar-dropdown label="Association" :hoverable="openOnHover" :collapsible="collapseOnMobile">
         <b-navbar-item href="/about">About</b-navbar-item>
         <b-navbar-item href="/board">Board</b-navbar-item>
         <b-navbar-item href="/contact">Contact</b-navbar-item>
         <b-navbar-item href="/documents">Documents</b-navbar-item>
       </b-navbar-dropdown>
-      <b-navbar-dropdown label="Beer Pong" :hoverable="openOnHover">
+      <b-navbar-dropdown label="Beer Pong" :hoverable="openOnHover" :collapsible="collapseOnMobile">
         <b-navbar-item href="/events">Events</b-navbar-item>
         <b-navbar-item href="/rules">Rules</b-navbar-item>
         <b-navbar-item href="/megapong">Mega Pong</b-navbar-item>
@@ -42,11 +42,19 @@
 <script>
 export default {
   props: {
+    /* Open dropmenus on hover */
     openOnHover: {
       type: Boolean,
       required: false,
       default: false,
     },
+    /* Collapse dropmenus on mobile */
+    collapseOnMobile: {
+      type: Boolean,
+      required: false,
+      default: true
+    },
+    /* Fade background on page scroll */
     fadeOnScroll: {
       type: Boolean,
       required: false,
@@ -82,7 +90,8 @@ export default {
 
 <style lang="scss" scoped>
 .navbar-item {
-  font-family: 'Octin', sans-serif;
+  text-transform: uppercase;
+  font-family: $nav-item-font;
   font-size: $nav-item-parent-font-size;
 }
 
@@ -108,7 +117,7 @@ export default {
 }
 
 .navbar-item.brand {
-  font-family: 'College Boy';
+  font-family: $nav-brand-font;
   font-size: 36px;
   line-height: 0;
   padding: 0 0.75rem;
