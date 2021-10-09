@@ -1,0 +1,143 @@
+// https://buefy.org/documentation/customization/
+
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+// Import fonts and set body font
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+$family-primary: $body-font;
+
+@font-face {
+  font-family: "College Boy";
+  src: local("College Boy"),
+  url(~assets/fonts/college-boy.otf) format("opentype");
+}
+  
+@font-face {
+  font-family: "Octin";
+  src: local("Octin"),
+  url(~assets/fonts/octin-sports.ttf) format("truetype");
+}
+
+// Set your colors
+$primary: $forest-green;
+$primary-light: findLightColor($primary);
+$primary-dark: findDarkColor($primary);
+$primary-invert: findColorInvert($primary);
+$twitter: $twitter-color;
+$twitter-invert: findColorInvert($twitter);
+
+// Lists and maps
+$custom-colors: null !default;
+$custom-shades: null !default;
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: mergeColorMaps(
+  (
+    "white": (
+      $white,
+      $black,
+    ),
+    "black": (
+      $black,
+      $white,
+    ),
+    "light": (
+      $light,
+      $light-invert,
+    ),
+    "dark": (
+      $dark,
+      $dark-invert,
+    ),
+    "primary": (
+      $primary,
+      $primary-invert,
+      $primary-light,
+      $primary-dark,
+    ),
+    "link": (
+      $link,
+      $link-invert,
+      $link-light,
+      $link-dark,
+    ),
+    "info": (
+      $info,
+      $info-invert,
+      $info-light,
+      $info-dark,
+    ),
+    "success": (
+      $success,
+      $success-invert,
+      $success-light,
+      $success-dark,
+    ),
+    "warning": (
+      $warning,
+      $warning-invert,
+      $warning-light,
+      $warning-dark,
+    ),
+    "danger": (
+      $danger,
+      $danger-invert,
+      $danger-light,
+      $danger-dark,
+    ),
+  ),
+  $custom-colors
+);
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+.nuxt-content a {
+  text-decoration: underline;
+  text-decoration-color: $forest-green;
+  text-underline-offset: 1.5px;
+  text-decoration-thickness: .125em;
+}
+
+.nuxt-content a {
+  &:hover,
+  &:focus {
+      background-color: $link-background-base-color;
+  }
+}
+
+// Blockquote
+.content blockquote {
+  border-left: 5px solid $forest-green;
+}
+
+// Override dropmenu arrow color in navbar
+/*
+.navbar-link:not(.is-arrowless)::after {
+    margin-top: -8.75px;
+    border-color: #004420 !important;
+}
+*/
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+// Stretch the page when there isn't enough content and footer would rise up
+.main {
+    flex: 1;
+}
+
+.box {
+    border-radius: 0 !important;
+}
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";

@@ -1,0 +1,20 @@
+// Common styles shared between multiple components
+
+.layout-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-is-centered {
+  justify-content: center;
+}
+
+.text-shadow {
+  text-shadow: 0px 0px 8px black;
+}
+
+.drop-shadow {
+  -webkit-filter: drop-shadow(0px 0px 4px black);
+  filter: drop-shadow(0px 0px 4px black);
+}

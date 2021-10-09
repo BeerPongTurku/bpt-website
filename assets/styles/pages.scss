@@ -1,0 +1,45 @@
+// Styles used in different pages
+// Any styles required by the markdown files in content directory should be written here
+
+// Index page
+.bpt-title {
+  font-family: $title-font;
+  font-weight: 500 !important;
+}
+
+.bpt-introduction {
+  font-size: 18px;
+}
+
+// Team page
+.team-member {
+  &-card {
+    margin: 20px 20px !important;
+    width: 230px;
+  }
+
+  &-info {
+    min-height: 90px;
+    font-size: 19px;
+
+    &-role {
+      font-size: 16px;
+    }
+  }
+
+  &-contact {
+    border-top: solid 2px #004420;
+    padding-top: 5px;
+    font-size: 15px;
+  }
+}
+
+.forest-green {
+  color: $forest-green;
+}
+
+// Services
+.highlight-quote {
+  padding: 0.75em 1.25em !important;
+  max-width: 400px;
+}
