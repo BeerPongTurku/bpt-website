@@ -66,7 +66,7 @@ export default {
   /* Background image opacity. 1 = fully visible, 0 = no background image */
   --bg-opacity: 0.3;
   /* Concentrate text to more narrow view area on wider screens */
-  --max-text-width: 650px;
+  --max-text-width: 660px;
   /* Adjust title font and weight */
   --title-text-font: inherit;
   --title-text-weight: bold;

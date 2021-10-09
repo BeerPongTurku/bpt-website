@@ -1,8 +1,8 @@
 <template>
   <div>
     <hero-image
-      title="Up for a game of Beer Pong?"
-      subtitle="We are an academic Beer Pong association within University of Turku and Turku University of Applied Sciences."
+      :title="frontPage.headline"
+      :subtitle="frontPage.summary"
       image="/images/fsobp-2018.jpg"
       :size="heroSize()"
       :text-shadow="true"
@@ -13,7 +13,7 @@
         <div class="columns has-margin has-full-height">
           <div class="column">
             <div class="box content summary">
-              <nuxt-content :document="column" />
+              <nuxt-content :document="frontPage" />
             </div>
           </div>
           <div class="column content">
@@ -31,8 +31,8 @@ export default {
   name: 'HomePage',
   layout: 'home',
   async asyncData({ $content }) {
-    const column = await $content('index').fetch()
-    return { column }
+    const frontPage = await $content('index').fetch()
+    return { frontPage }
   },
   methods: {
     heroSize() {
