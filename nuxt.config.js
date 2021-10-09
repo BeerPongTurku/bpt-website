@@ -50,6 +50,7 @@ export default {
     'nuxt-buefy',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/style-resources'
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
