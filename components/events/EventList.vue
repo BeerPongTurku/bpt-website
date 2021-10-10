@@ -43,9 +43,9 @@ export default {
 
 <style lang="scss" scoped>
 .event-list {
-  padding: 0 1rem;
   .event-item-container {
     justify-content: center;
+    padding: 0 1rem;
   }
 }
 .event-item + .event-item{
