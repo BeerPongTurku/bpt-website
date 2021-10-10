@@ -28,13 +28,9 @@ summary: We are a student association in University of Turku that organizes tour
     </div>
     <div>
       <hr class="article-horizontal-rule">
-      <div class="columns">
-        <div class="column">
-            <b-tag type="light-primary" size="is-medium">Website</b-tag>
-        </div>
-        <div class="column article-date-column">
-          <span>12.10.2021</span>
-        </div>
+      <div class="article-footer">
+        <b-tag type="light-primary" size="is-medium">Website</b-tag>
+        <span>12.10.2021</span>
       </div>
     </div>
   </div>
