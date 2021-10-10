@@ -4,6 +4,7 @@
     type="is-primary"
     :class="fadeBackground"
     wrapper-class="container"
+    :mobile-burger="false"
   >
     <template #brand>
       <b-navbar-item
@@ -22,6 +23,7 @@
     </template>
 
     <template #end>
+      <!-- Coming soon ;)
       <b-navbar-dropdown label="Association" :hoverable="openOnHover" :collapsible="collapseOnMobile">
         <b-navbar-item href="/about">About</b-navbar-item>
         <b-navbar-item href="/board">Board</b-navbar-item>
@@ -35,6 +37,7 @@
       </b-navbar-dropdown>
       <b-navbar-item href="/services">Services</b-navbar-item>
       <b-navbar-item href="/join">Join</b-navbar-item>
+      -->
     </template>
   </b-navbar>
 </template>
