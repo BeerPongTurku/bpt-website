@@ -21,6 +21,7 @@ export default {
   align-items: center;
   flex-wrap: wrap;
   background-color: $footer-bg-color;
+  margin-top: 1.5rem;
 
   .contact-info {
     margin: 20px;
