@@ -11,10 +11,8 @@
     <section class="main-content">
       <div class="container">
         <div class="columns has-margin has-full-height">
-          <div class="column">
-            <div class="box content">
-              <nuxt-content :document="frontPage" />
-            </div>
+          <div class="column is-two-thirds">
+            <nuxt-content :document="frontPage" />
           </div>
           <div class="column content">
             <event-list />

@@ -35,7 +35,7 @@
               {{ time }}
               <br />
               <b-icon icon="map-marker" custom-size="mdi-16px" />
-              <a class="bpt-link" v-if="locationLink" :href="locationLink" target="_blank">{{ locationName }}</a>
+              <a v-if="locationLink" class="bpt-link" :href="locationLink" target="_blank">{{ locationName }}</a>
               <span v-else>{{ locationName }}</span>
             </div>
           </div>
@@ -142,7 +142,7 @@ export default {
 
 <style lang="scss" scoped>
 .event-item {
-  max-width: 420px;
+  min-width: 315px;
 
   .card-content {
     padding: 0.8rem;

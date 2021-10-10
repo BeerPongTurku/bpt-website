@@ -1,8 +1,10 @@
 <template>
   <div class="event-list">
-    <h2 class="bpt-title" v-if="showTitle">Upcoming events</h2>
-    <event-item v-for="event in upcomingEvents" :key="event.name" :event="event" />
-    <div v-if="noEvents">No events scheduled.</div>
+    <h3 v-if="showTitle" class="bpt-title">Events</h3>
+    <div class="event-item-container">
+      <event-item v-for="event in upcomingEvents" :key="event.name" :event="event" />
+      <div v-if="noEvents">No events scheduled.</div>
+    </div>
   </div>
 </template>
 
@@ -42,6 +44,9 @@ export default {
 <style lang="scss" scoped>
 .event-list {
   padding: 0 1rem;
+  .event-item-container {
+    justify-content: center;
+  }
 }
 .event-item + .event-item{
   margin-top: 30px;
