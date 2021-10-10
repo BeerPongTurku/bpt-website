@@ -12,12 +12,12 @@
       <div class="container">
         <div class="columns has-margin has-full-height">
           <div class="column">
-            <div class="box content summary">
+            <div class="box content">
               <nuxt-content :document="frontPage" />
             </div>
           </div>
           <div class="column content">
-            Placeholder
+            <event-list />
           </div>
         </div>
       </div>
@@ -26,7 +26,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'HomePage',
   layout: 'home',
@@ -49,9 +48,5 @@ export default {
 
 .has-full-height {
   min-height: 290px;
-}
-
-.summary {
-  height: 100%;
 }
 </style>

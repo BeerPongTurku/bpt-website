@@ -1,6 +1,10 @@
 // Global SCSS variables, registered via style-resources plugin
 
 $forest-green: #154506;
+$forest-green-light: #205b0c;
+$text-secondary-color: #626262;
+$disabled-color: #BEBEBE;
+$light-gray: #EDEDED;
 $link-background-base-color: rgba(0, 151, 19, 0.1);
 
 $body-font: 'Lora', serif;
@@ -10,6 +14,11 @@ $mobile-breakpoint: 1023px;
 $twitter-color: #4099FF;
 $facebook-color: #39529a;
 $instagram-color: #e02532;
+$kide-color: #7143d5;
+$kide-color-transparent: #5d36b11e;
+
+$sold-out-color: #fdadad;
+$coming-soon-color: $disabled-color;
 
 $nav-bg-color: $forest-green;
 $nav-brand-font: 'College Boy', 'Oswald';
@@ -20,3 +29,25 @@ $nav-item-parent-mobile-color: white;
 $nav-item-child-mobile-color: #000000;
 
 $footer-bg-color: whitesmoke;
+
+@mixin bpt-link-custom($color) {
+  text-decoration: underline;
+  text-decoration-color: $color;
+  text-underline-offset: 1.5px;
+  text-decoration-thickness: .125em;
+}
+
+@mixin bpt-link-focus-custom($color) {
+  background-color: $color;
+}
+
+@mixin bpt-link-default {
+  text-decoration: underline;
+  text-decoration-color: $forest-green-light;
+  text-underline-offset: 1.5px;
+  text-decoration-thickness: .125em;
+}
+  
+@mixin bpt-link-focus {
+  background-color: $link-background-base-color;
+}

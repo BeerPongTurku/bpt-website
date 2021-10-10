@@ -1,0 +1,36 @@
+// For some reason, arrays don't work the way they should: https://content.nuxtjs.org/writing/#arrays
+// This is why the events array is wrapped in an object
+{
+    events: [
+        {
+            name: "Beer Pong League Qualifier #3",
+            description: "Join us in Heidi's Bier Bar for the third time when the last 32 teams go head to head for a chance to compete in the Beer Pong League finals.",
+            locationName: "Heidi's Bier Bar",
+            locationAddress: "Aurakatu 14, 20100 Turku",
+            locationLink: "https://goo.gl/maps/goVMeAaTSWnotsd87",
+            date: "2021-10-19T17:00:00",
+            tickets: "sold-out",
+            facebookEvent: "https://www.facebook.com/events/4513881965341399/"
+        },
+        {
+            name: "Beer Pong Party",
+            description: "What's better than a Beer Pong tournament? A Beer Pong tournament with an afterparty. That's why we are organizing both, together with Adamas and TIO in Vegas. Come to play or just to party (we'll be doing both).",
+            locationName: "Night Club Vegas",
+            locationAddress: "Eerikinkatu 19, 20100 Turku",
+            locationLink: "https://goo.gl/maps/ZuxStZHtyjcDuTYx5",
+            date: "2021-10-27T17:00:00",
+            tickets: "coming-soon",
+            facebookEvent: ""
+        },
+        {
+            name: "Beer Pong League Finals",
+            description: "One of the biggest tournaments this year comes to a close in the final event in Heidi's Bier Bar. Twenty four teams fought their way through qualifiers, who will claim the victory when there are no more easy wins to be had?",
+            locationName: "Heidi's Bier Bar",
+            locationAddress: "Aurakatu 14, 20100 Turku",
+            locationLink: "https://goo.gl/maps/goVMeAaTSWnotsd87",
+            date: "2021-11-09T17:00:00",
+            tickets: "",
+            facebookEvent: "https://www.facebook.com/events/4513881965341399/"
+        },
+    ],
+}

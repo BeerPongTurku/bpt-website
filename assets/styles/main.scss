@@ -92,21 +92,15 @@ $colors: mergeColorMaps(
 );
 
 // Links
-$link: $primary;
+$link: $forest-green-light;
 $link-invert: $primary-invert;
 $link-focus-border: $primary;
 
 .nuxt-content a {
-  text-decoration: underline;
-  text-decoration-color: $forest-green;
-  text-underline-offset: 1.5px;
-  text-decoration-thickness: .125em;
-}
-
-.nuxt-content a {
+  @include bpt-link-default;
   &:hover,
   &:focus {
-      background-color: $link-background-base-color;
+    @include bpt-link-focus;
   }
 }
 

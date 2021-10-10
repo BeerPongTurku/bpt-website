@@ -5,6 +5,7 @@
 .bpt-title {
   font-family: $title-font;
   font-weight: 500 !important;
+  text-transform: uppercase;
 }
 
 .bpt-introduction {
@@ -28,7 +29,7 @@
   }
 
   &-contact {
-    border-top: solid 2px #004420;
+    border-top: solid 2px $forest-green;
     padding-top: 5px;
     font-size: 15px;
   }

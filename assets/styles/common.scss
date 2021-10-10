@@ -18,3 +18,11 @@
   -webkit-filter: drop-shadow(0px 0px 4px black);
   filter: drop-shadow(0px 0px 4px black);
 }
+
+.bpt-link {
+  @include bpt-link-default;
+  &:hover,
+  &:focus {
+    @include bpt-link-focus;
+  }
+}
