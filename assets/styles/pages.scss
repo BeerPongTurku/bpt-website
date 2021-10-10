@@ -6,10 +6,24 @@
   font-family: $title-font;
   font-weight: 500 !important;
   text-transform: uppercase;
+  font-size: 1.5em;
+  margin-bottom: 0.5rem;
 }
 
 .bpt-introduction {
   font-size: 18px;
+}
+
+.article-horizontal-rule {
+  margin: 1rem 0;
+}
+
+.card-header-latest {
+  background-color: $forest-green;
+}
+
+.article-date-column {
+  text-align: right;
 }
 
 // Team page

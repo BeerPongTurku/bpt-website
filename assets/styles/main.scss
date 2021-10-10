@@ -118,18 +118,25 @@ $link-focus-border: $primary;
 */
 
 .page-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 // Stretch the page when there isn't enough content and footer would rise up
 .main {
-    flex: 1;
+  flex: 1;
 }
 
 .box {
+  border-radius: 0 !important;
+}
+
+.card {
+  border-radius: 0 !important;
+  img {
     border-radius: 0 !important;
+  }
 }
 
 // Import Bulma and Buefy styles
