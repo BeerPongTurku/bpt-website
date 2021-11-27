@@ -43,9 +43,10 @@ export default {
 
 <style lang="scss" scoped>
 .event-list {
-  .event-item-container {
-    justify-content: center;
-    padding: 0 1rem;
+  @media screen and (min-width: 770px) {
+    .event-item-container {
+      padding: 0 1rem;
+    }
   }
 }
 .event-item + .event-item{

@@ -147,13 +147,15 @@ export default {
   .card-content {
     padding: 0.8rem;
   }
-
+  
   .column {
     padding: 0.4rem 0.8rem;
   }
 
-  .weekday {
-    padding-right: 0;
+  @media screen and (min-width: 770px) {
+    .weekday {
+      padding-right: 0;
+    }
   }
 
   .event-column {

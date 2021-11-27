@@ -5,6 +5,11 @@ export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
 
+  // Configure error page for Netlify
+  generate: {
+    fallback: true
+  },
+
   // Configure dev server for WLAN access
   server: {
     port: 3000,
@@ -72,10 +77,19 @@ export default {
   build: {
   },
 
+  // Loading bar
+  loading: {
+    height: '2px',
+    throttle: 10,
+    color: '#ff9200'
+  },
+
   // Loading indicator
+  /*
   loadingIndicator: {
     name: 'three-bounce',
-    color: 'white',
-    background: '#154506'
+    color: '#ff9200',
+    background: 'white'
   }
+  */
 }
