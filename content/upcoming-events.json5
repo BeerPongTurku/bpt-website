@@ -32,5 +32,15 @@
             tickets: "",
             facebookEvent: "https://www.facebook.com/events/4513881965341399/"
         },
+                {
+            name: "Glögi Pong",
+            description: "Finishing our 2021 season is Glögi Pong, a Christmas-themed tournament with hot glogg, Christmas songs and red cups. Who knows, maybe even Santa himself pays a visit?",
+            locationName: "Q-talo",
+            locationAddress: "Nummenpuistokatu 2, 20540 Turku",
+            locationLink: "https://goo.gl/maps/GrKZUAumukfTYRcN7",
+            date: "2021-12-07T17:30:00",
+            tickets: "https://kide.app/events/4d1ed52a-5b90-4add-81df-876eec97cc55",
+            facebookEvent: "https://www.facebook.com/events/4513881965341399/"
+        },
     ],
 }
