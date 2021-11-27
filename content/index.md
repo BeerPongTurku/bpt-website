@@ -10,6 +10,7 @@ summary: We are a student association in University of Turku that organizes tour
     </p>
   </div>
 </div>
+<!--
 <h3 class="bpt-title">Latest</h2>
 <div class="card">
   <div class="card-image">
@@ -35,3 +36,4 @@ summary: We are a student association in University of Turku that organizes tour
     </div>
   </div>
 </div>
+-->
