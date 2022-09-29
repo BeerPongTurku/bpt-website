@@ -1,0 +1,13 @@
+{
+  "navigationLinks": [
+    {
+      "label": "Beer Pong",
+      "pages": [
+        {
+          "label": "Rules",
+          "route": "rules"
+        }
+      ]
+    }
+  ]
+}

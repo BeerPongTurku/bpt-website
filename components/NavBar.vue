@@ -1,28 +1,15 @@
 <template>
-  <b-navbar
-    class="navbar header is-fixed-top"
-    type="is-primary"
-    :class="fadeBackground"
-    wrapper-class="container"
-    :mobile-burger="false"
-  >
+  <b-navbar class="navbar header is-fixed-top" type="is-primary" :class="fadeBackground" wrapper-class="container"
+    :mobile-burger="false">
     <template #brand>
-      <b-navbar-item
-        class="brand text-shadow"
-        tag="router-link"
-        :to="{ path: '/' }"
-      >
+      <b-navbar-item class="brand text-shadow" tag="router-link" :to="{ path: '/' }">
         <span>
-          <img
-            class="brand-logo drop-shadow"
-            src="~/assets/images/icon.png"
-            alt="Beer Pong Turku"
-          />BPT</span
-        >
+          <img class="brand-logo drop-shadow" src="~/assets/images/icon.png" alt="Beer Pong Turku" />BPT</span>
       </b-navbar-item>
     </template>
 
     <template #end>
+      <NavItem v-for="(navItem, index) in navItems" :key="index" :nav-item="navItem" />
       <!-- Coming soon ;)
       <b-navbar-dropdown label="Association" :hoverable="openOnHover" :collapsible="collapseOnMobile">
         <b-navbar-item href="/about">About</b-navbar-item>
@@ -43,20 +30,11 @@
 </template>
 
 <script>
+import navigationLinks from '../configuration/configuration.js';
+import NavItem from './NavItem.vue';
 export default {
+  components: { NavItem },
   props: {
-    /* Open dropmenus on hover */
-    openOnHover: {
-      type: Boolean,
-      required: false,
-      default: false,
-    },
-    /* Collapse dropmenus on mobile */
-    collapseOnMobile: {
-      type: Boolean,
-      required: false,
-      default: true
-    },
     /* Fade background on page scroll */
     fadeOnScroll: {
       type: Boolean,
@@ -67,25 +45,26 @@ export default {
   data() {
     return {
       scrollPosition: null,
-    }
+      navItems: navigationLinks(),
+    };
   },
   computed: {
     fadeBackground() {
       if (this.fadeOnScroll) {
-        return this.scrollPosition > 40 ? 'has-solid-bg' : 'has-transparent-bg'
+        return this.scrollPosition > 40 ? "has-solid-bg" : "has-transparent-bg";
       }
-      return 'has-solid-bg'
+      return "has-solid-bg";
     },
   },
   mounted() {
-    window.addEventListener('scroll', this.updateScroll)
+    window.addEventListener("scroll", this.updateScroll);
   },
   beforeDestroy() {
-    window.removeEventListener('scroll', this.updateScroll)
+    window.removeEventListener("scroll", this.updateScroll);
   },
   methods: {
     updateScroll() {
-      this.scrollPosition = window.scrollY
+      this.scrollPosition = window.scrollY;
     },
   },
 }
