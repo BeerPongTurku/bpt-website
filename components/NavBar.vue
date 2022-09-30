@@ -1,6 +1,6 @@
 <template>
   <b-navbar class="navbar header is-fixed-top" type="is-primary" :class="fadeBackground" wrapper-class="container"
-    :mobile-burger="false">
+    :mobile-burger="true">
     <template #brand>
       <b-navbar-item class="brand text-shadow" tag="router-link" :to="{ path: '/' }">
         <span>
