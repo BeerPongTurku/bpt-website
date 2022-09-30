@@ -8,6 +8,10 @@
           "route": "rules"
         }
       ]
+    },
+    {
+      "label": "Contact",
+      "route": "contact"
     }
   ]
 }

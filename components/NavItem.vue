@@ -1,9 +1,12 @@
 <template>
-  <b-navbar-dropdown :label="navItem.label" :hoverable="openOnHover" :collapsible="collapseOnMobile">
+  <b-navbar-dropdown v-if="navItem.pages" :label="navItem.label" :hoverable="openOnHover" :collapsible="collapseOnMobile">
     <b-navbar-item v-for="(page, index) in navItem.pages" :key="index" :href="page.route">
       {{ page.label }}
     </b-navbar-item>
   </b-navbar-dropdown>
+  <b-navbar-item v-else :href="navItem.route">
+    {{ navItem.label }}
+  </b-navbar-item>
 </template>
 
 <script>
