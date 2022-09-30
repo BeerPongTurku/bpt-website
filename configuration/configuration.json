@@ -12,6 +12,10 @@
     {
       "label": "Contact",
       "route": "contact"
+    },
+    {
+      "label": "Organizing an event?",
+      "route": "services"
     }
   ]
 }

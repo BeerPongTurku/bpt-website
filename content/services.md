@@ -1,5 +1,5 @@
 ---
-title: Services
+title: Organizing an event?
 ---
 In addition to hosting our own events, we also rent out Beer Pong tables as well as offer help and consultation on organizing Beer Pong tournaments.
 
