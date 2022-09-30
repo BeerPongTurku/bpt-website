@@ -4,7 +4,7 @@
     <div class="main">
       <NavBar />
       <section class="main-content">
-        <div class="container">
+        <div class="container is-max-widescreen">
           <Nuxt />
         </div>
       </section>
