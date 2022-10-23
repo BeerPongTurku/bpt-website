@@ -27,7 +27,7 @@ export default {
     collapseOnMobile: {
       type: Boolean,
       required: false,
-      default: true
+      default: false
     },
   }
 }

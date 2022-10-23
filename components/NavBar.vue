@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import navigationLinks from '../configuration/configuration.js';
+import { navigationLinks } from '../configuration/configuration.js';
 import NavItem from './NavItem.vue';
 export default {
   components: { NavItem },
