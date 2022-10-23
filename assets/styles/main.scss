@@ -106,7 +106,16 @@ $link-focus-border: $primary;
 
 // Blockquote
 .content blockquote {
-  border-left: 5px solid $forest-green;
+  border-left: 5px solid $forest-green !important;
+}
+
+// Navbar dropmenu
+
+.navbar-link:not(.is-arrowless) {
+  padding-right: 2em !important;
+  &::after {
+    font-size: 0.8em;
+  }
 }
 
 // Override dropmenu arrow color in navbar

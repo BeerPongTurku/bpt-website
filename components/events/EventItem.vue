@@ -143,6 +143,7 @@ export default {
 <style lang="scss" scoped>
 .event-item {
   min-width: 315px;
+  //max-width: 500px;
 
   .card-content {
     padding: 0.8rem;
