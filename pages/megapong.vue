@@ -10,12 +10,12 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const page = await $content('services').fetch()
+    const page = await $content('megapong').fetch()
 
     return { page }
   },
   head: {
-    title: 'Services - BPT',
+    title: 'Mega Pong - BPT',
   },
 }
 </script>
