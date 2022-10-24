@@ -87,7 +87,7 @@ export default {
     },
     locationName() {
       const location = this.event.location
-      return location.substring(0, location.indexOf(','))
+      return location?.substring(0, location.indexOf(','))
     },
     locationLink() {
       return locationLinkRequestURI(this.event.location)
