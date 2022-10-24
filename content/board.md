@@ -7,8 +7,8 @@ title: Board and officials
     <board-member-card
       name="Rio Koskelo"
       role="Chairperson, international affairs"
-      email="jtspie@utu.fi"
-      telegram="kurkkuu">
+      email="rlskos@utu.fi"
+      telegram="RioKos">
     </board-member-card>
     <board-member-card
       name="Niklas Mettälä"
@@ -19,8 +19,8 @@ title: Board and officials
     <board-member-card
       name="Emilia Kalliokoski"
       role="Communications, equality"
-      email="jtspie@utu.fi"
-      telegram="kurkkuu">
+      email="emamka@utu.fi"
+      telegram="emamka">
     </board-member-card>
     <board-member-card
       name="Rita Ojaniemi"
@@ -37,22 +37,22 @@ title: Board and officials
     <board-member-card
       name="Nemo Laiho"
       role="Club house, inventory"
-      email="jtspie@utu.fi"
-      telegram="kurkkuu">
+      email="nmlaih@utu.fi"
+      telegram="nemolaiho">
     </board-member-card>
   </div>
   <div class="column">
     <board-member-card
       name="Janne Rissanen"
       role="Vice chairperson, environment"
-      email="jtspie@utu.fi"
-      telegram="kurkkuu">
+      email="joriss@utu.fi"
+      telegram="ja_ri">
     </board-member-card>
     <board-member-card
       name="Maria Jokinen"
       role="Treasurer"
-      email="jtspie@utu.fi"
-      telegram="kurkkuu">
+      email="mahjok@utu.fi"
+      telegram="Marskuna">
     </board-member-card>
     <board-member-card
       name="Lauri Orava"
@@ -63,8 +63,8 @@ title: Board and officials
     <board-member-card
       name="Matias Meri"
       role="Beer Pong League"
-      email="jtspie@utu.fi"
-      telegram="kurkkuu">
+      email="mmomer@utu.fi"
+      telegram="mddii">
     </board-member-card>
     <board-member-card
       name="Matti Loimaranta"
