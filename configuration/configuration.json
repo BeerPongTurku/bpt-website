@@ -6,10 +6,6 @@
         {
           "label": "Rules",
           "route": "rules"
-        },
-        {
-          "label": "Mega Pong",
-          "route": "megapong"
         }
       ]
     },

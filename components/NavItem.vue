@@ -1,10 +1,10 @@
 <template>
   <b-navbar-dropdown v-if="navItem.pages" :label="navItem.label" :hoverable="openOnHover" :collapsible="collapseOnMobile">
-    <b-navbar-item v-for="(page, index) in navItem.pages" :key="index" :href="page.route">
+    <b-navbar-item v-for="(page, index) in navItem.pages" :key="index" :href="pageRoute(page.route)">
       {{ page.label }}
     </b-navbar-item>
   </b-navbar-dropdown>
-  <b-navbar-item v-else :href="navItem.route">
+  <b-navbar-item v-else :href="pageRoute(navItem.route)">
     {{ navItem.label }}
   </b-navbar-item>
 </template>
@@ -29,6 +29,11 @@ export default {
       required: false,
       default: false
     },
+  },
+  methods: {
+    pageRoute(route) {
+      return '/' + route
+    }
   }
 }
 </script>
