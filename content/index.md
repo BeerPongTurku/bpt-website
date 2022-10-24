@@ -10,7 +10,8 @@ summary: We organize tournaments and other Beer Pong related events for students
     </p>
     <p>
       Even though our roots are in the University of Turku, our events are open to everyone, regardless of whether you are an exchange student or studying in some other university or polytehnic. We also work towards making Beer Pong more inclusive and accessible for everyone. For example, we aim to communicate in English and all of our events include a non-alcoholic option.
-      
+    </p>
+    <p>
       Most of our events require a small entry fee to play. Tickets as well as our membership which offers benefits such as tournament discounts can be purchased from our <a href="https://kide.app/community/a5fa65d1-6781-4eff-8f4d-6b27a9580d9d">Kide.app</a> page.
     </p>
   </div>
