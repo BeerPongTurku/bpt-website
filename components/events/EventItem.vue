@@ -26,9 +26,7 @@
                   </div>
                 </a>
               </template>
-              <p class="event-description">
-                {{ event.description }}
-              </p>
+              <p class="event-description" v-html="event.description"></p>
             </b-collapse>
             <div class="event-details">
               <b-icon icon="clock" custom-size="mdi-16px" />
@@ -54,6 +52,7 @@
 </template>
 
 <script>
+import { locationLinkRequestURI } from '../../configuration/configuration.js';
 export default {
   props: {
     event: {
@@ -84,13 +83,14 @@ export default {
       return this.date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
     },
     title() {
-      return this.event?.name ?? 'Error while fetching event';
+      return this.event?.summary;
     },
     locationName() {
-      return this.event?.locationName ?? '';
+      const location = this.event.location
+      return location?.substring(0, location.indexOf(','))
     },
     locationLink() {
-      return this.event?.locationLink ?? '/';
+      return locationLinkRequestURI(this.event.location)
     },
     show() {
       return true;
@@ -134,8 +134,8 @@ export default {
   },
   methods: {
     initDate() {
-      return this.event?.date ? new Date(this.event.date) : Date.now();
-    }
+      return new Date(this.event.start.dateTime);
+    },
   },
 }
 </script>
@@ -143,6 +143,7 @@ export default {
 <style lang="scss" scoped>
 .event-item {
   min-width: 315px;
+  //max-width: 500px;
 
   .card-content {
     padding: 0.8rem;
@@ -212,6 +213,7 @@ export default {
 }
 
 .event-content {
+  min-height: 130px;
   background: white;
 }
 

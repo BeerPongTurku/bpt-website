@@ -1,8 +1,8 @@
 <template>
   <div class="content has-text-centered">
-    <h1>{{error.statusCode === 404 ? 'Oops, looks like you missed the cups...' : 'An unknown error occurred...'}}</h1>
-    {{error.statusCode === 404 ? 'Nothing to see here. ' : 'If this keeps happening, contact beerpongturku@gmail.com'}}
-    <NuxtLink class="bpt-link" to="/">{{error.statusCode === 404 ? 'Go back to the front page?' : 'Try going back to the front page?'}}</NuxtLink>
+    <h1>{{notFound ? 'Oops, looks like you missed the cups...' : 'An unknown error occurred...'}}</h1>
+    {{notFound ? 'Nothing to see here. ' : 'If this keeps happening, contact beerpongturku@gmail.com'}}
+    <NuxtLink class="bpt-link" to="/">{{notFound ? 'Go back to the front page?' : 'Try going back to the front page?'}}</NuxtLink>
   </div>
 </template>
 
@@ -13,6 +13,11 @@ export default {
     error: {
       type: Object,
       default: () => {},
+    }
+  },
+  computed: {
+    notFound() {
+      return this.error.statusCode === 404
     }
   }
 }

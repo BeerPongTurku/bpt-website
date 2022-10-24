@@ -1,0 +1,34 @@
+{
+  "navigationLinks": [
+    {
+      "label": "Beer Pong",
+      "pages": [
+        {
+          "label": "Rules",
+          "route": "rules"
+        },
+        {
+          "label": "Mega Pong",
+          "route": "megapong"
+        }
+      ]
+    },
+    {
+      "label": "Association",
+      "pages": [
+        {
+          "label": "Board",
+          "route": "board"
+        }
+      ]
+    },
+    {
+      "label": "Contact",
+      "route": "contact"
+    }
+  ],
+  "calendar": {
+    "id": "a8d4c3f26166d62d538e9ca691684344f76c109301dc9f1d3a3c95d8283cdc97@group.calendar.google.com",
+    "key": "AIzaSyA4J6Y9WArex4aj2mXx9KZ-s4c4swECTnU"
+  }
+}

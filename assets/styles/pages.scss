@@ -26,6 +26,21 @@
   text-align-last: justify;
 }
 
+.board-card-container {
+
+  div.card + div.card {
+    margin-top: 1rem;
+  }
+
+  .media {
+    margin-bottom: 1rem !important;
+  }
+
+  .member-contact-info {
+    color: $forest-green;
+  }
+}
+
 // Team page
 .team-member {
   &-card {
@@ -47,10 +62,6 @@
     padding-top: 5px;
     font-size: 15px;
   }
-}
-
-.forest-green {
-  color: $forest-green;
 }
 
 // Services

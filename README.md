@@ -1,5 +1,7 @@
 # bpt-website
 
+[Sisällönhallinnan ohjeet](CMS.md)
+
 ## Build Setup
 
 ```bash
