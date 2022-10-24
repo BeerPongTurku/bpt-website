@@ -1,6 +1,6 @@
 <template>
   <b-navbar-dropdown v-if="navItem.pages" :label="navItem.label" :hoverable="openOnHover" :collapsible="collapseOnMobile">
-    <b-navbar-item v-for="(page, index) in navItem.pages" :key="index" :href="page.route">
+    <b-navbar-item v-for="(page, index) in navItem.pages" :key="index" :href="'/' + page.route">
       {{ page.label }}
     </b-navbar-item>
   </b-navbar-dropdown>
