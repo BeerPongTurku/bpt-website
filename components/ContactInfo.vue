@@ -8,8 +8,15 @@
       <br />
       {{ info.postalCode + ' ' + info.city }}
       <br />
-      <br v-if="showBusinessId" />
-      {{ info.email }}
+    <div v-if="showStorageAddress">
+      <b>Storage</b>
+      <br />
+      {{ info.storageAddress }}
+      <br />
+      {{ info.storagePostalCode }}
+    </div>
+    <br v-if="showBusinessId" />
+    {{ info.email }}
     </p>
   </div>
 </template>
@@ -22,6 +29,11 @@ export default {
       required: false,
       default: true,
     },
+    showStorageAddress: {
+      type: Boolean,
+      required: false,
+      default: true,
+    }
   },
   data() {
     return {

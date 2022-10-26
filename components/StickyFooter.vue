@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <img src="~/assets/images/logo.png" width="150px" />
-    <ContactInfo :show-business-id="false" />
+    <ContactInfo :show-business-id="false" :show-storage-address="false" />
     <SocialMediaBar />
   </div>
 </template>

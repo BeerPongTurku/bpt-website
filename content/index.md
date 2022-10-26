@@ -16,3 +16,15 @@ summary: We organize tournaments and other Beer Pong related events for students
     </p>
   </div>
 </div>
+<a href="/rent-equipment">
+<div class="card image-link">
+  <div class="card-image">
+    <figure class="image hero is-primary has-background is-3by1">
+      <img class="image-background is-transparent" src="/images/rent-equipment.jpg" alt="Beer Pong equipment">
+    </figure>
+  </div>
+  <div class="image-link-text text-shadow">Want to rent a Beer Pong table?</div>
+</div>
+</a>
+  
+</div>
