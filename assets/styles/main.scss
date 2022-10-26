@@ -105,9 +105,13 @@ $link-focus-border: $primary;
 }
 
 // Prevent overflowing of links in event cards, cannot be applied in scoped styles
-// TODO: Fix styling
 .event-description a {
   word-break: break-all;
+  @include bpt-link-default;
+  &:hover,
+  &:focus {
+    @include bpt-link-focus;
+  }
 }
 
 // Blockquote

@@ -6,4 +6,6 @@
     city: "Turku",
     email: "beerpongturku@gmail.com",
     businessId: "3078071-4",
+    storageAddress: "Q-talo, Nummenpuistokatu 2",
+    storagePostalCode: "20540 Turku",
 }
