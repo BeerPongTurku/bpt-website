@@ -11,10 +11,10 @@ title: Board and officials
       telegram="RioKos">
     </board-member-card>
     <board-member-card
-      name="Niklas Mettälä"
-      role="Secretary"
-      email="niklas.j.mettala@utu.fi"
-      telegram="Nikk3">
+      name="Janne Rissanen"
+      role="Vice chairperson, environment"
+      email="joriss@utu.fi"
+      telegram="ja_ri">
     </board-member-card>
     <board-member-card
       name="Emilia Kalliokoski"
@@ -22,31 +22,13 @@ title: Board and officials
       email="emamka@utu.fi"
       telegram="emamka">
     </board-member-card>
-    <board-member-card
-      name="Rita Ojaniemi"
-      role="Beer Pong League"
-      email="rjojan@utu.fi"
-      telegram="Ritaoja">
-    </board-member-card>
-    <board-member-card
-      name="Petri Holopainen"
-      role="Corporate collaboration"
-      email="pjholo@utu.fi"
-      telegram="petrips">
-    </board-member-card>
-    <board-member-card
-      name="Nemo Laiho"
-      role="Club house, inventory"
-      email="nmlaih@utu.fi"
-      telegram="nemolaiho">
-    </board-member-card>
   </div>
   <div class="column">
     <board-member-card
-      name="Janne Rissanen"
-      role="Vice chairperson, environment"
-      email="joriss@utu.fi"
-      telegram="ja_ri">
+      name="Niklas Mettälä"
+      role="Secretary"
+      email="niklas.j.mettala@utu.fi"
+      telegram="Nikk3">
     </board-member-card>
     <board-member-card
       name="Maria Jokinen"
@@ -60,6 +42,33 @@ title: Board and officials
       email="laorav@utu.fi"
       telegram="Juoksuorava">
     </board-member-card>
+  </div>
+</div>
+
+## Officials
+
+<div class="columns board-card-container">
+  <div class="column">
+    <board-member-card
+      name="Petri Holopainen"
+      role="Corporate collaboration"
+      email="pjholo@utu.fi"
+      telegram="petrips">
+    </board-member-card>
+    <board-member-card
+      name="Nemo Laiho"
+      role="Club house, inventory"
+      email="nmlaih@utu.fi"
+      telegram="nemolaiho">
+    </board-member-card>
+    <board-member-card
+      name="Matti Loimaranta"
+      role="FSOBP"
+      email="makalo@utu.fi"
+      telegram="mattiloimaranta">
+    </board-member-card>
+  </div>
+  <div class="column">
     <board-member-card
       name="Matias Meri"
       role="Beer Pong League"
@@ -67,10 +76,10 @@ title: Board and officials
       telegram="mddii">
     </board-member-card>
     <board-member-card
-      name="Matti Loimaranta"
-      role="FSOBP"
-      email="makalo@utu.fi"
-      telegram="mattiloimaranta">
+      name="Rita Ojaniemi"
+      role="Beer Pong League"
+      email="rjojan@utu.fi"
+      telegram="Ritaoja">
     </board-member-card>
   </div>
 </div>
