@@ -13,8 +13,8 @@ title: Board and officials
     <board-member-card
       name="Niklas Mettälä"
       role="Secretary"
-      email="jtspie@utu.fi"
-      telegram="kurkkuu">
+      email="niklas.j.mettala@utu.fi"
+      telegram="Nikk3">
     </board-member-card>
     <board-member-card
       name="Emilia Kalliokoski"
@@ -25,14 +25,14 @@ title: Board and officials
     <board-member-card
       name="Rita Ojaniemi"
       role="Beer Pong League"
-      email="jtspie@utu.fi"
-      telegram="kurkkuu">
+      email="rjojan@utu.fi"
+      telegram="Ritaoja">
     </board-member-card>
     <board-member-card
       name="Petri Holopainen"
       role="Corporate collaboration"
-      email="jtspie@utu.fi"
-      telegram="kurkkuu">
+      email="pjholo@utu.fi"
+      telegram="petrips">
     </board-member-card>
     <board-member-card
       name="Nemo Laiho"
@@ -57,8 +57,8 @@ title: Board and officials
     <board-member-card
       name="Lauri Orava"
       role="Events, annual ball"
-      email="jtspie@utu.fi"
-      telegram="kurkkuu">
+      email="laorav@utu.fi"
+      telegram="Juoksuorava">
     </board-member-card>
     <board-member-card
       name="Matias Meri"
@@ -69,8 +69,8 @@ title: Board and officials
     <board-member-card
       name="Matti Loimaranta"
       role="FSOBP"
-      email="jtspie@utu.fi"
-      telegram="kurkkuu">
+      email="makalo@utu.fi"
+      telegram="mattiloimaranta">
     </board-member-card>
   </div>
 </div>
