@@ -1,5 +1,5 @@
 ---
-title: Board and officials
+title: Board
 ---
 
 <div class="columns board-card-container">
