@@ -19,6 +19,10 @@
         {
           "label": "Board",
           "route": "board"
+        },
+        {
+          "label": "Documents",
+          "route": "documents"
         }
       ]
     },
