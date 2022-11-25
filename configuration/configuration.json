@@ -6,6 +6,10 @@
         {
           "label": "Rules",
           "route": "rules"
+        },
+        {
+          "label": "Rent equipment",
+          "route": "rent-equipment"
         }
       ]
     },
@@ -15,6 +19,10 @@
         {
           "label": "Board",
           "route": "board"
+        },
+        {
+          "label": "Documents",
+          "route": "documents"
         }
       ]
     },
@@ -25,6 +33,8 @@
   ],
   "calendar": {
     "id": "a8d4c3f26166d62d538e9ca691684344f76c109301dc9f1d3a3c95d8283cdc97@group.calendar.google.com",
-    "key": "AIzaSyA4J6Y9WArex4aj2mXx9KZ-s4c4swECTnU"
+    "key": "AIzaSyA4J6Y9WArex4aj2mXx9KZ-s4c4swECTnU",
+    "shareLink": "https://calendar.google.com/calendar/u/0?cid=YThkNGMzZjI2MTY2ZDYyZDUzOGU5Y2E2OTE2ODQzNDRmNzZjMTA5MzAxZGM5ZjFkM2EzYzk1ZDgyODNjZGM5N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+    "maxNumberOfEvents": 4
   }
 }

@@ -1,6 +1,10 @@
 # bpt-website
 
-[Sisällönhallinnan ohjeet](CMS.md)
+https://beerpongturku.fi/
+
+## Documents
+
+- [Sisällönhallinnan ohjeet](CMS.md)
 
 ## Build Setup
 
