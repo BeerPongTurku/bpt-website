@@ -10,7 +10,12 @@
         {
           "label": "Rent equipment",
           "route": "rent-equipment"
+        },
+        {
+          "label": "Mega Pong",
+          "route": "megapong"
         }
+        
       ]
     },
     {
@@ -19,6 +24,10 @@
         {
           "label": "Board",
           "route": "board"
+        },
+        {
+          "label": "Documents",
+          "route": "documents"
         }
       ]
     },
