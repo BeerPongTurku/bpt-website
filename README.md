@@ -6,7 +6,7 @@ https://beerpongturku.fi/
 
 - [Sisällönhallinnan ohjeet](CMS.md)
 
-## Build Setup
+## Build setup
 
 ```bash
 # install dependencies
@@ -25,7 +25,18 @@ $ npm run generate
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
-## Special Directories
+## CI/CD pipeline
+
+Github Actions is used for continuous integration. The pipeline runs for every pull request and push to `master`, excluding changes to any markdown files in the project root. Deployment is configured in Netlify (credentials can be found from Beer Pong Turku's Drive). Netlify builds the site and deploys it to production on push to `master` or creates a preview for pull requests.
+
+Few things to keep in mind: 
+- In Netlify's starter plan, continuous deployment is only available for organization repositories that are **public**.
+- (Free) build minutes for Netlify and Github Actions are limited, although the quotas should be more than enough for our use.
+
+### Additional documentation
+- [Deploying Nuxt app on Netlify](https://nuxtjs.org/deployments/netlify/)
+
+## Project structure (Nuxt)
 
 You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
 
@@ -46,7 +57,6 @@ More information about the usage of this directory in [the documentation](https:
 Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
 
 ### `pages`
 
