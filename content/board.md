@@ -12,7 +12,7 @@ title: Board
     </board-member-card>
     <board-member-card
       name="Emilia Kalliokoski"
-      role="Vice chairperson & Equality Affairs"
+      role="Vice Chairperson & Equality Affairs"
       email="emamka@utu.fi"
       telegram="emamka">
     </board-member-card>
