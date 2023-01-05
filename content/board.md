@@ -5,22 +5,22 @@ title: Board
 <div class="columns board-card-container">
   <div class="column">
     <board-member-card
-      name="Rio Koskelo"
-      role="Chairperson, international affairs"
-      email="rlskos@utu.fi"
-      telegram="RioKos">
-    </board-member-card>
-    <board-member-card
       name="Janne Rissanen"
-      role="Vice chairperson, environment"
-      email="joriss@utu.fi"
-      telegram="ja_ri">
+      role="Chairperson"
+      email="joriss rlskos@utu.fi"
+      telegram="Ja_Ri">
     </board-member-card>
     <board-member-card
       name="Emilia Kalliokoski"
-      role="Communications, equality"
+      role="Vice chairperson & Equality Affairs"
       email="emamka@utu.fi"
       telegram="emamka">
+    </board-member-card>
+    <board-member-card
+      name="Aleksi Pelkonen"
+      role="Communications"
+      email="aipelk@utu.fi"
+      telegram="pelkis96">
     </board-member-card>
   </div>
   <div class="column">
@@ -31,16 +31,16 @@ title: Board
       telegram="Nikk3">
     </board-member-card>
     <board-member-card
-      name="Maria Jokinen"
-      role="Treasurer"
-      email="mahjok@utu.fi"
-      telegram="Marskuna">
-    </board-member-card>
-    <board-member-card
       name="Lauri Orava"
-      role="Events, annual ball"
+      role="Treasurer & Annual Ball Organiser"
       email="laorav@utu.fi"
       telegram="Juoksuorava">
+    </board-member-card>
+    <board-member-card
+      name="Nemo Laiho"
+      role="Events & Environmental Affairs"
+      email="nmlaih@utu.fi"
+      telegram="Nemolaiho">
     </board-member-card>
   </div>
 </div>
@@ -51,35 +51,35 @@ title: Board
   <div class="column">
     <board-member-card
       name="Petri Holopainen"
-      role="Corporate collaboration"
+      role="Corporate Collaboration"
       email="pjholo@utu.fi"
       telegram="petrips">
     </board-member-card>
     <board-member-card
-      name="Nemo Laiho"
-      role="Club house, inventory"
-      email="nmlaih@utu.fi"
-      telegram="nemolaiho">
+      name="Samu Nykänen"
+      role="Logistics"
+      email="nykanen.samu@gmail.com"
+      telegram="Samupn">
     </board-member-card>
     <board-member-card
-      name="Matti Loimaranta"
-      role="FSOBP"
-      email="makalo@utu.fi"
-      telegram="mattiloimaranta">
+      name="Rio Koskelo"
+      role="FSOBP & International Affairs"
+      email="rlskos@utu.fi"
+      telegram="RioKos">
     </board-member-card>
   </div>
   <div class="column">
     <board-member-card
-      name="Matias Meri"
+      name="Veera Pajunen"
       role="Beer Pong League"
-      email="mmomer@utu.fi"
-      telegram="mddii">
+      email="vepaju@utu.fi"
+      telegram="veepaj">
     </board-member-card>
     <board-member-card
-      name="Rita Ojaniemi"
+      name="Jenni Autere"
       role="Beer Pong League"
-      email="rjojan@utu.fi"
-      telegram="Ritaoja">
+      email="jkaute@utu.fi"
+      telegram="jenniau">
     </board-member-card>
   </div>
 </div>
