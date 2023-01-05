@@ -7,7 +7,7 @@ title: Board
     <board-member-card
       name="Janne Rissanen"
       role="Chairperson"
-      email="joriss rlskos@utu.fi"
+      email="joriss@utu.fi"
       telegram="Ja_Ri">
     </board-member-card>
     <board-member-card
