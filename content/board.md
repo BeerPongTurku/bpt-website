@@ -32,7 +32,7 @@ title: Board
     </board-member-card>
     <board-member-card
       name="Noora Kontoniemi"
-      role="Treasurer & Equalitu Affairs"
+      role="Treasurer & Equality Affairs"
       email="nskont@utu.fi"
       telegram="Nooosu">
     </board-member-card>
