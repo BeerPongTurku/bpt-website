@@ -34,7 +34,7 @@ title: Board
       name="Noora Kontoniemi"
       role="Treasurer & Equality Affairs"
       email="nskont@utu.fi"
-      telegram="Nooosu">
+      telegram="nooosu">
     </board-member-card>
     <board-member-card
       name="Janne Rissanen"
@@ -58,8 +58,8 @@ title: Board
     <board-member-card
       name="Veera Ollila"
       role="Logistics"
-      email="vboll@utu.fi"
-      telegram="Veeraollila">
+      email="vbolli@utu.fi"
+      telegram="veeraollila">
     </board-member-card>
     <board-member-card
       name="Rio Koskelo"
@@ -73,7 +73,7 @@ title: Board
       name="Karoliina Alho"
       role="Beer Pong League"
       email="kaalho@utu.fi"
-      telegram="Karoliinaurora">
+      telegram="karoliinaurora">
     </board-member-card>
     <board-member-card
       name="Valter Olin"
