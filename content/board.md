@@ -7,19 +7,19 @@ title: Board
     <board-member-card
       name="Samu Nykänen"
       role="Chairperson"
-      email="nykanen.samu@gmail.com"
+      email="nykanen.samu[ät]gmail.com"
       telegram="Samupn">
     </board-member-card>
     <board-member-card
       name="Aleksi Pelkonen"
       role="Vice Chairperson"
-      email="aipelk@utu.fi"
+      email="aipelk[ät]utu.fi"
       telegram="pelkis96">
     </board-member-card>
     <board-member-card
       name="Jenni Autere"
       role="Communications"
-      email="jkaute@utu.fi"
+      email="jkaute[ät]utu.fi"
       telegram="jenniau">
     </board-member-card>
   </div>
@@ -27,19 +27,19 @@ title: Board
     <board-member-card
       name="Niklas Mettälä"
       role="Secretary"
-      email="njmett@utu.fi"
+      email="njmett[ät]utu.fi"
       telegram="Nikk3">
     </board-member-card>
     <board-member-card
       name="Noora Kontoniemi"
       role="Treasurer & Equality Affairs"
-      email="nskont@utu.fi"
+      email="nskont[ät]utu.fi"
       telegram="nooosu">
     </board-member-card>
     <board-member-card
       name="Janne Rissanen"
       role="Events & Environmental Affairs"
-      email="joriss@utu.fi"
+      email="joriss[ät]utu.fi"
       telegram="Ja_Ri">
     </board-member-card>
   </div>
@@ -52,19 +52,19 @@ title: Board
     <board-member-card
       name="Nemo Laiho"
       role="Corporate Collaboration"
-      email="nmlaih@utu.fi"
+      email="nmlaih[ät]utu.fi"
       telegram="Nemolaiho">
     </board-member-card>
     <board-member-card
       name="Veera Ollila"
       role="Logistics"
-      email="vbolli@utu.fi"
+      email="vbolli[ät]utu.fi"
       telegram="veeraollila">
     </board-member-card>
     <board-member-card
       name="Rio Koskelo"
       role="FSOBP & International Affairs"
-      email="rlskos@utu.fi"
+      email="rlskos[ät]utu.fi"
       telegram="RioKos">
     </board-member-card>
   </div>
@@ -72,13 +72,13 @@ title: Board
     <board-member-card
       name="Karoliina Alho"
       role="Beer Pong League"
-      email="kaalho@utu.fi"
+      email="kaalho[ät]utu.fi"
       telegram="karoliinaurora">
     </board-member-card>
     <board-member-card
       name="Valter Olin"
       role="Beer Pong League"
-      email="violin@utu.fi"
+      email="violin[ät]utu.fi"
       telegram="Valter_olin">
     </board-member-card>
   </div>
@@ -91,7 +91,7 @@ title: Board
     <board-member-card
       name="Jarkko Pietilä"
       role="Webmaster"
-      email="jtspie@utu.fi"
+      email="jtspie[ät]utu.fi"
       telegram="kurkkuu">
     </board-member-card>
   </div>
