@@ -16,5 +16,5 @@ Contractual penalty	in case the table gets damaged: **150€**
 If you need multiple tables, ask for an offer.
 
 <blockquote class="highlight-quote">
-<b>Bookings and inquiries</b>: beerpongturku@gmail.com
+<b>Bookings and inquiries</b>: beerpongturku[ät]gmail.com
 </blockquote>
