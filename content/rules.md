@@ -12,7 +12,7 @@ In 2018, WSOBP made a big [rule revision](https://bpong.com/blog/2018/03/biggest
 
 **Summary of the WSOBP rules:**
 - Leaning while shooting is permitted. Player must start with both feet on the ground and gentle contact to the cups and the table is allowed.
-- Bounce shots count as two cups; the ball may be blocked after it makes contact to the table or cups.
+- Bounce shots count as two cups; the ball may be blocked after it makes contact to the table or cups; you can't end the game with extra removed cup from bounce shot.
 - If both teams sink their shot, the team gets one additional rollback (Pope's rule).
 - Cups are immediately removed after being hit (no possibility to hit the same cup twice).
 - Blowing a spinning ball out of the cup is not allowed.
