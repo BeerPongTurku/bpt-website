@@ -5,10 +5,10 @@ title: Board
 <div class="columns board-card-container">
   <div class="column">
     <board-member-card
-      name="Samu Nykänen"
+      name=""
       role="Chairperson"
-      email="nykanen.samu[ät]gmail.com"
-      telegram="Samupn">
+      email=""
+      telegram="">
     </board-member-card>
     <board-member-card
       name="Aleksi Pelkonen"
