@@ -14,7 +14,7 @@
       </div>
       <div class="content member-contact-info">
         <div>{{ email }}</div>
-        <div>{{ '@' + telegram }}</div>
+        <div>{{ '[ät]' + telegram }}</div>
       </div>
     </div>
   </div>
