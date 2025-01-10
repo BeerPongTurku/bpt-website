@@ -19,7 +19,7 @@ title: Board
     <board-member-card
       name="Kristian Suominen"
       role="Events & Communication"
-      email="[ät]utu.fi"
+      email="kisuom[ät]utu.fi"
       telegram="Abbrassion">
     </board-member-card>
   </div>
