@@ -56,7 +56,7 @@ title: Board
       telegram="Valter_olin">
     </board-member-card>
     <board-member-card
-      name="Marika Raino"
+      name="Marika Rainto"
       role="Logistics"
       email="marika.rainto[ät]edu.turkuamk.fi"
       telegram="piisamir0tta">
