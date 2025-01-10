@@ -65,7 +65,7 @@ title: Board
       name="Saga Salmi"
       role="FSOBP"
       email="sksalm[ät]utu.fi"
-      telegram="sagakatriina">
+      telegram="sagakatariina">
     </board-member-card>
   </div>
   <div class="column">
